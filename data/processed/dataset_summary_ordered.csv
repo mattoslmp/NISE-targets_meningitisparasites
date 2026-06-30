@@ -1,0 +1,8 @@
+tag,Hits of Clusters,Hits of Proteins,Hits of different EC Classes,Hits of putatve analogue Enz,analog_candidate_ecs,drug_ec_entries,ec_file_n,homologous_only_ecs,organism,same_ec_both,organism_short
+aac,,,,,134,1330,770,504,Angiostrongylus cantonensis genome,638,A. cantonensis genome
+anc,0.0,7068.0,1028.0,0.0,164,1330,1019,666,Angiostrongylus cantonensis transcriptome,830,A. cantonensis transcriptome
+ecg,0.0,2898.0,791.0,0.0,139,1330,786,526,Echinococcus granulosus,665,E. granulosus
+ecm,0.0,3040.0,798.0,0.0,140,1330,794,529,Echinococcus multilocularis,669,E. multilocularis
+tas,,,,,135,1330,788,524,Taenia solium,659,T. solium
+tox,0.0,4512.0,1569.0,845.0,156,1330,1045,704,Toxocara canis,860,T. canis
+onv,0.0,3158.0,902.0,723.0,153,1330,897,593,Onchocerca volvulus,746,O. volvulus

@@ -1,0 +1,7 @@
+EC,enzyme_axis,datasets,priority_score,evidence_level,inhibitor_and_selectivity_note
+2.7.4.9,dTMP kinase,7,21,Direct enzyme-class precedent,Nucleoside/nucleotide analogue and dTMP-kinase scaffolds; counter-screen human DTYMK.
+2.7.1.25,adenylyl-sulfate kinase / APS kinase,7,20,Pathway and enzyme-class precedent,Nucleotide/sulfate analogue and kinase-like screening; validate parasite selectivity.
+2.4.2.31,NAD(+)-protein-arginine ADP-ribosyltransferase,7,20,Drug-like cofactor-site precedent,NAD analogues and ART/PARP-like chemistry; high host-liability caution.
+3.1.2.15,ubiquitinyl hydrolase-like signal requiring EC normalization,7,20,Direct inhibitor precedent after EC normalization,Accepted ubiquitinyl hydrolase 1 is EC 3.4.19.12 and has ubiquitin aldehyde/DUB inhibitor precedent; correct EC before target claims.
+4.4.1.1,cystathionine gamma-lyase,7,20,Direct inhibitor precedent,Propargylglycine/beta-cyanoalanine precedent; counter-screen human CTH.
+6.1.1.9,valine--tRNA ligase / ValRS,3,13,Validated antimicrobial target-class precedent,aaRS inhibitor class precedent; confirm parasite-specific ValRS targetability.

@@ -1,0 +1,11 @@
+EC,journal_label,n_datasets,priority_score_v3,evidence_level,kegg_ec_url,fold_or_domain_hint_not_assignment
+2.7.4.9,dTMP kinase,7,21,Direct enzyme-class precedent,https://www.genome.jp/entry/ec:2.7.4.9,Thymidylate kinase family; P-loop/nucleotide-binding kinase-like fold; sequence-specific confirmation required
+3.5.4.4,adenosine deaminase,7,21,Approved-drug precedent with host-liability,https://www.genome.jp/entry/ec:3.5.4.4,Adenosine/AMP deaminase / Pfam PF00962 / InterPro IPR001365 / structural exemplar 1add
+4.4.1.1,cystathionine gamma-lyase,7,21,Direct inhibitor precedent,https://www.genome.jp/entry/ec:4.4.1.1,PLP-dependent enzyme fold; CGL/CBL family candidates require sequence-specific confirmation
+1.3.1.74,2-alkenal reductase [NAD(P)+],7,20,Detoxification enzyme-class precedent,https://www.genome.jp/entry/ec:1.3.1.74,sequence-specific fold assignment pending
+2.4.2.31,NAD(+)-protein-arginine ADP-ribosyltransferase,7,20,Drug-like cofactor-site precedent,https://www.genome.jp/entry/ec:2.4.2.31,ADP-ribosyltransferase/NAD-dependent transferase fold families; sequence-specific confirmation required
+2.7.1.25,adenylyl-sulfate kinase / APS kinase,7,20,Pathway and enzyme-class precedent,https://www.genome.jp/entry/ec:2.7.1.25,APS_kinase / PF01583 / InterPro IPR002891 / structural exemplar 1d6j
+3.1.2.15,ubiquitinyl hydrolase-like/deubiquitinase signal,7,20,Direct inhibitor precedent after EC normalization,https://www.genome.jp/entry/ec:3.4.19.12,Ubiquitin C-terminal hydrolase / deubiquitinase fold families; confirm EC correction first
+3.6.1.15,nucleoside-triphosphatase,7,20,Nucleotide-enzyme class precedent,https://www.genome.jp/entry/ec:3.6.1.15,sequence-specific fold assignment pending
+3.6.1.5,apyrase,7,20,Host-parasite interaction/class precedent,https://www.genome.jp/entry/ec:3.6.1.5,Apyrase / Pfam PF06079 / InterPro IPR009283 / structural exemplar 1s1d
+1.1.1.1,alcohol dehydrogenase,7,19,Computational target-class candidate,https://www.genome.jp/entry/ec:1.1.1.1,sequence-specific fold assignment pending

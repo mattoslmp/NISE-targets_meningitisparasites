@@ -1,12 +1,101 @@
 <!doctype html>
-<html><head><meta charset="utf-8"><title>NISE targets</title><style>body{font-family:Arial;margin:40px;max-width:1000px;line-height:1.5}h1,h2{color:#17324d}</style></head><body>
-<h1>NISE-targets_meningitisparasites</h1>
-<p>Static summary generated from the uploaded AnEnPi outputs.</p>
-<ul>
-<li>7 parasite datasets parsed.</li>
-<li>43 curated EC activities prioritized.</li>
-<li>26 ECs present as analog candidates in all seven datasets.</li>
-</ul>
-<h2>Data integrity</h2>
-<p>SUPERFAMILY/SCOP fold-assignment tables were not present in the uploaded ZIP; therefore this release reports AnEnPi-reconstructed candidates and does not claim unobserved fold validation.</p>
-</body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NISE targets in meningitis-associated parasites</title>
+  <style>
+    :root{--bg:#f5f8fb;--card:#ffffff;--ink:#152033;--muted:#5e6b7a;--blue:#17324d;--cyan:#0d7a8a;--line:#dbe5ef;--warn:#8a5a00;}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.58}
+    header{background:linear-gradient(135deg,#10263d,#0d7a8a);color:#fff;padding:58px 24px 46px}
+    .wrap{max-width:1120px;margin:0 auto}.eyebrow{letter-spacing:.08em;text-transform:uppercase;font-weight:700;font-size:13px;opacity:.85}
+    h1{font-size:42px;line-height:1.12;margin:12px 0 16px} h2{font-size:28px;color:var(--blue);margin-top:0} h3{color:var(--blue)}
+    .subtitle{font-size:18px;max-width:900px;opacity:.95}.grid{display:grid;gap:18px}.cards{grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin-top:-32px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 10px 28px rgba(21,32,51,.07)}
+    .metric{font-size:34px;font-weight:800;color:var(--cyan)}.label{font-size:14px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+    main{padding:0 24px 60px} section{margin:28px auto}.pill{display:inline-block;border:1px solid var(--line);background:#eef6f8;border-radius:999px;padding:6px 10px;margin:4px 4px 4px 0;font-size:13px;color:#164451}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden} th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} th{background:#edf4fa;color:#17324d} tr:last-child td{border-bottom:0}
+    .notice{border-left:5px solid var(--warn);background:#fff7e6;padding:16px 18px;border-radius:12px}.links a{display:inline-block;margin:6px 10px 6px 0;color:#0b6473;font-weight:700;text-decoration:none}.links a:hover{text-decoration:underline}
+    code{background:#edf2f7;border:1px solid #d8e2ec;border-radius:6px;padding:2px 5px} footer{padding:28px 24px;color:#647184;border-top:1px solid var(--line);background:#fff}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">AnEnPi-derived comparative enzymology resource</div>
+      <h1>Non-homologous isofunctional enzyme candidates in neurotropic and neurologically relevant helminths</h1>
+      <p class="subtitle">Static project page for the repository <strong>NISE-targets_meningitisparasites</strong>. The page summarizes parsed AnEnPi outputs, curated EC activities and candidate therapeutic-target priorities while preserving a strict no-invented-data policy.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid cards" aria-label="Main metrics">
+      <div class="card"><div class="metric">7</div><div class="label">parasite datasets parsed</div></div>
+      <div class="card"><div class="metric">43</div><div class="label">curated EC target activities</div></div>
+      <div class="card"><div class="metric">26</div><div class="label">core analog candidates across all datasets</div></div>
+      <div class="card"><div class="metric">3</div><div class="label">local FASTA proteomes counted directly</div></div>
+    </section>
+
+    <section class="card">
+      <h2>Project summary</h2>
+      <p>This resource organizes the outputs of an AnEnPi-style workflow to identify enzyme activities shared between humans and parasites where parasite proteins can be assigned to clusters distinct from the human cluster set. These candidates are treated as putative non-homologous isofunctional enzyme layers and are prioritized for downstream fold validation, structural inspection and inhibitor-focused literature review.</p>
+      <p>The organisms represented in the parsed package are <em>Angiostrongylus cantonensis</em> genome, <em>A. cantonensis</em> transcriptome-derived proteins, <em>Echinococcus granulosus</em>, <em>E. multilocularis</em>, <em>Taenia solium</em>, <em>Toxocara canis</em> and <em>Onchocerca volvulus</em>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Dataset-level summary</h2>
+      <table>
+        <thead><tr><th>Dataset</th><th>Organism / layer</th><th>ECs in parasite file</th><th>Same EC in human and parasite</th><th>Analog-candidate ECs</th></tr></thead>
+        <tbody>
+          <tr><td>aac</td><td><em>A. cantonensis</em> genome</td><td>770</td><td>638</td><td>134</td></tr>
+          <tr><td>anc</td><td><em>A. cantonensis</em> transcriptome</td><td>1019</td><td>830</td><td>164</td></tr>
+          <tr><td>ecg</td><td><em>E. granulosus</em></td><td>786</td><td>665</td><td>139</td></tr>
+          <tr><td>ecm</td><td><em>E. multilocularis</em></td><td>794</td><td>669</td><td>140</td></tr>
+          <tr><td>tas</td><td><em>T. solium</em></td><td>788</td><td>659</td><td>135</td></tr>
+          <tr><td>tox</td><td><em>T. canis</em></td><td>1045</td><td>860</td><td>156</td></tr>
+          <tr><td>onv</td><td><em>O. volvulus</em></td><td>897</td><td>746</td><td>153</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Prioritized candidate activities</h2>
+      <p>The project package contains a full supplementary table with EC identifiers, enzyme names, per-organism occurrence, candidate status, available FASTA linkage where local sequences were available, and literature-derived inhibitor notes when they could be supported.</p>
+      <p>
+        <span class="pill">dTMP kinase</span>
+        <span class="pill">adenylyl-sulfate kinase</span>
+        <span class="pill">NAD(+)-protein-arginine ADP-ribosyltransferase</span>
+        <span class="pill">ubiquitinyl hydrolase 1</span>
+        <span class="pill">cystathionine gamma-lyase</span>
+        <span class="pill">valine--tRNA ligase</span>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Data integrity note</h2>
+      <div class="notice">
+        <strong>No unobserved fold-validation result is claimed.</strong> The uploaded package did not contain SUPERFAMILY/SCOP fold-assignment output tables. Therefore, this page and the manuscript report AnEnPi-reconstructed candidates and include fold validation as a reproducible required layer for final NISE confirmation.
+      </div>
+    </section>
+
+    <section class="card links">
+      <h2>Repository files</h2>
+      <a href="../README.md">README</a>
+      <a href="../data/processed/dataset_summary_ordered.csv">Dataset summary CSV</a>
+      <a href="../data/processed/proteome_source_and_metrics.csv">Proteome source and metrics CSV</a>
+      <a href="../scripts/01_parse_anenpi_outputs.py">AnEnPi parser script</a>
+      <a href="../scripts/02_make_publication_figures.py">Figure script</a>
+      <a href="../manuscript/README.md">Manuscript note</a>
+    </section>
+
+    <section class="card">
+      <h2>Recommended journal route</h2>
+      <p><strong>Primary recommendation:</strong> <em>Parasites &amp; Vectors</em>, because the current manuscript is a computational parasitology and post-genomic resource article. <strong>Alternative routes:</strong> <em>PLOS Neglected Tropical Diseases</em> if clinical/translational framing is expanded, <em>iScience</em> after fold, docking or experimental validation, and <em>Scientific Data</em> if the project is repositioned as a curated data descriptor.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Generated for Leandro de Mattos Pereira / Databiomics. Repository: mattoslmp/NISE-targets_meningitisparasites.</div>
+  </footer>
+</body>
+</html>

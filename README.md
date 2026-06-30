@@ -4,31 +4,36 @@ Comparative AnEnPi-derived catalog of non-homologous isofunctional enzyme candid
 
 ## GitHub Pages
 
-A redesigned static project page is available in `docs/index.html` and is ready for GitHub Pages publication.
+The final static project page is available as both `index.html` and `docs/index.html` so the site can publish from either the repository root or `/docs`.
 
-Expected public URL after Pages is enabled:
+Expected public URL:
 
 `https://mattoslmp.github.io/NISE-targets_meningitisparasites/`
 
-To activate it in GitHub: **Settings -> Pages -> Deploy from a branch -> main -> /docs -> Save**.
+If the URL returns 404, configure GitHub Pages in the repository settings:
 
-## Revised manuscript package
+- Option A: **Settings -> Pages -> Deploy from a branch -> main -> /(root) -> Save**
+- Option B: **Settings -> Pages -> Deploy from a branch -> main -> /docs -> Save**
+- Option C: **Settings -> Pages -> Source -> GitHub Actions**, then run the workflow `.github/workflows/pages.yml`.
 
-Current journal-oriented file generated in the local release package:
+GitHub documentation states that Pages looks for an `index.html`, `index.md` or `README.md` at the top level of the selected publishing source; this repository includes `index.html` in both supported locations.
 
-- `manuscript/NISE_targets_meningitisparasites_manuscript_v2_ParasitesVectors.docx`
-- `manuscript/NISE_targets_supplementary_figures_v2.docx`
-- `tables/NISE_targets_supplementary_tables_v2_formatted.xlsx`
+## Final manuscript package
 
-The article is formatted for a **Parasites & Vectors** style computational parasitology/resource manuscript.
+- `manuscript/NISE_targets_meningitisparasites_final_ParasitesVectors.docx`
+- `manuscript/NISE_targets_meningitisparasites_final_ParasitesVectors.pdf`
+- `manuscript/NISE_targets_supplementary_figures_final.docx`
+- `manuscript/NISE_targets_supplementary_figures_final.pdf`
+- `tables/NISE_targets_supplementary_tables_final_formatted.xlsx`
 
 ## Main results
 
-- 7 parasite datasets were parsed.
-- 43 curated EC activities were prioritized.
-- 26 target ECs were present as analog candidates in all seven datasets.
-- The most promising axes are dTMP kinase, adenylyl-sulfate kinase, NAD(+)-protein-arginine ADP-ribosyltransferase, cystathionine gamma-lyase, selected nucleotide hydrolases, valine--tRNA ligase and a deubiquitinase-like curation-priority axis.
+- 7 parasite datasets parsed.
+- 43 curated EC activities prioritized.
+- 26 target ECs present as AnEnPi-reconstructed analog candidates in all seven datasets.
+- Priority score: `2*n_datasets + evidence_bonus + EC_quality_bonus + sequence_support_bonus`.
+- Main target axes: dTMP kinase, APS kinase, ADP-ribosyltransferase, cystathionine gamma-lyase, adenosine deaminase, NUDIX/ADP-ribose hydrolase-like activities and ValRS.
 
 ## Data-integrity statement
 
-The uploaded ZIP did not contain SUPERFAMILY/SCOP fold-assignment tables, so the current release reports AnEnPi-reconstructed candidates and does not claim unobserved fold validation. The workflow and methods describe fold validation as a required downstream confirmation layer.
+SUPERFAMILY/SCOP assignment tables were not present in the uploaded package. Fold IDs were therefore not invented. The tables include fold-validation fields and database links so candidates can be promoted to fold-validated NISEs only after sequence-specific structural-superfamily confirmation.

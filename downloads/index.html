@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Downloads | NISE targets</title>
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f8fc;color:#13243a;line-height:1.6}.wrap{max-width:1050px;margin:auto;padding:28px}header{background:#061321;color:white;padding:46px 28px}h1{margin:0 0 10px;font-size:38px}h2{color:#12395a}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.card{background:white;border:1px solid #d8e6ef;border-radius:18px;padding:20px;box-shadow:0 12px 28px rgba(18,57,90,.08)}a.btn{display:inline-block;margin-top:10px;padding:10px 13px;border-radius:10px;background:#12395a;color:white;text-decoration:none;font-weight:bold}.teal{background:#008c9e!important}.gold{background:#8a5a00!important}code{background:#eef4f8;padding:2px 5px;border-radius:5px}.back{color:#93f2ff;font-weight:bold}</style>
+</head>
+<body>
+<header><div class="wrap"><a class="back" href="../docs/">Back to project page</a><h1>Download module</h1><p>Figures, scripts, processed tables and manuscript-support files for the NISE target discovery project.</p></div></header>
+<main class="wrap">
+<h2>Figures</h2><div class="grid"><div class="card"><h3>Workflow figure</h3><p>Vector workflow diagram showing the AnEnPi-derived pipeline and fold-validation step.</p><a class="btn" href="../figures/svg/Figure_1_workflow.svg">Download SVG</a></div><div class="card"><h3>Priority heatmap</h3><p>High-contrast vector heatmap for the top target axes and dataset recurrence.</p><a class="btn" href="../figures/svg/Figure_3_target_presence_heatmap.svg">Download SVG</a></div><div class="card"><h3>Target evidence table preview</h3><p>CSV table containing priority score, KEGG links and fold-validation fields.</p><a class="btn teal" href="../data/processed/top_targets_v3_for_manuscript.csv">Download CSV</a></div></div>
+<h2>Scripts</h2><div class="grid"><div class="card"><h3>AnEnPi parser</h3><p>Reconstructs human-parasite EC and cluster matrices from AnEnPi outputs.</p><a class="btn" href="../scripts/01_parse_anenpi_outputs.py">Download script</a></div><div class="card"><h3>Figure generator</h3><p>Entry point for publication figure generation from processed tables.</p><a class="btn" href="../scripts/02_make_publication_figures.py">Download script</a></div><div class="card"><h3>Score formula</h3><p>Documents score components: recurrence, evidence, EC quality and sequence support.</p><a class="btn" href="../scripts/04_score_formula_and_table_links.py">Download script</a></div></div>
+<h2>Tables and documentation</h2><div class="grid"><div class="card"><h3>Dataset summary</h3><p>Dataset-level EC counts and analog-candidate counts.</p><a class="btn teal" href="../data/processed/dataset_summary_ordered.csv">Download CSV</a></div><div class="card"><h3>Proteome metrics</h3><p>Proteome/source metrics and notes about local FASTA support.</p><a class="btn teal" href="../data/processed/proteome_source_and_metrics.csv">Download CSV</a></div><div class="card"><h3>Repository README</h3><p>GitHub Pages instructions, data-integrity statement and manuscript file list.</p><a class="btn gold" href="../README.md">Open README</a></div></div>
+</main>
+</body>
+</html>

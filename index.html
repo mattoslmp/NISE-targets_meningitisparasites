@@ -1,15 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NISE targets in meningitis-associated parasites</title>
-  <meta http-equiv="refresh" content="0; url=docs/">
-  <style>body{font-family:Arial,sans-serif;background:#f3f8fc;color:#13243a;margin:40px;line-height:1.6}a{color:#12395a;font-weight:bold}</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NISE targets in meningitis-associated parasites</title>
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f8fc;color:#13243a;line-height:1.6}.wrap{max-width:1120px;margin:auto;padding:26px}header{background:linear-gradient(135deg,#061321,#12395a,#008c9e);color:white;padding:62px 22px}h1{font-size:42px;line-height:1.1;margin:10px 0}.tag{color:#93f2ff;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:26px}.metric{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:18px;padding:18px}.metric b{display:block;color:#ffbf47;font-size:34px}.card{background:white;border:1px solid #d8e6ef;border-radius:22px;padding:24px;margin:22px 0;box-shadow:0 14px 32px rgba(18,57,90,.08)}h2{color:#12395a}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.box{background:#f8fbff;border-left:6px solid #008c9e;border-radius:16px;padding:16px}.box small{display:block;color:#66788a;font-weight:700}.btn{display:inline-block;margin:6px 8px 6px 0;padding:11px 15px;border-radius:12px;background:#12395a;color:white;text-decoration:none;font-weight:700}.btn.alt{background:#008c9e}.btn.gold{background:#8a5a00}.figure{width:100%;background:white;border:1px solid #d8e6ef;border-radius:18px;padding:10px}footer{background:#061321;color:#c6d8e6;padding:24px}.note{background:#fff6dc;border-left:6px solid #ffbf47;padding:14px;border-radius:12px}
+</style>
 </head>
 <body>
-  <h1>NISE targets in meningitis-associated parasites</h1>
-  <p>The project page is available in the docs folder.</p>
-  <p><a href="docs/">Open the static project page</a></p>
+<header><div class="wrap"><div class="tag">Parasites and Vectors-ready resource</div><h1>Non-homologous isofunctional enzyme candidates in neurologically relevant helminths</h1><p>Results, figures, scripts and download links for the AnEnPi-derived target discovery project.</p><div class="metrics"><div class="metric"><b>7</b>parasite datasets</div><div class="metric"><b>43</b>curated EC activities</div><div class="metric"><b>26</b>core candidates</div><div class="metric"><b>21</b>highest priority score</div></div></div></header>
+<main class="wrap">
+<section class="card"><h2>Summary</h2><p>The analysis prioritizes enzyme activities shared by human and parasite datasets but assigned to parasite cluster configurations absent from the human cluster set. These are reported as AnEnPi-reconstructed analog candidates and ranked for drug-target follow-up.</p><div class="note"><b>Data integrity:</b> SUPERFAMILY and SCOP assignment tables were not present in the uploaded package. Fold fields are validation targets, not invented results.</div></section>
+<section class="card"><h2>Main results</h2><div class="grid"><div class="box"><b>Dataset coverage</b><br>Angiostrongylus cantonensis, Echinococcus granulosus, Echinococcus multilocularis, Taenia solium, Toxocara canis and Onchocerca volvulus.</div><div class="box"><b>Score formula</b><br>Priority score = 2 x positive datasets + evidence bonus + EC-quality bonus + sequence-support bonus.</div><div class="box"><b>Core target layer</b><br>26 EC activities were recurrent candidates across all seven datasets.</div></div></section>
+<section class="card"><h2>Top target axes</h2><div class="grid"><div class="box"><b>dTMP kinase</b><small>EC 2.7.4.9 | score 21</small>Nucleotide metabolism and analogue precedent.</div><div class="box"><b>Adenosine deaminase</b><small>EC 3.5.4.4 | score 21</small>Purine metabolism and approved-drug precedent.</div><div class="box"><b>Cystathionine gamma-lyase</b><small>EC 4.4.1.1 | score 21</small>PLP-dependent sulfur-amino-acid metabolism.</div><div class="box"><b>APS kinase</b><small>EC 2.7.1.25 | score 20</small>Activated sulfate and PAPS metabolism.</div><div class="box"><b>ADP-ribosyltransferase</b><small>EC 2.4.2.31 | score 20</small>NAD-site chemistry and inhibitor-screening precedent.</div><div class="box"><b>Valine--tRNA ligase</b><small>EC 6.1.1.9 | score 13</small>Aminoacyl-tRNA synthetase target-class precedent.</div></div></section>
+<section class="card"><h2>Download module</h2><p><a class="btn" href="downloads/">Open downloads</a><a class="btn alt" href="figures/svg/Figure_1_workflow.svg">Workflow SVG</a><a class="btn alt" href="figures/svg/Figure_3_target_presence_heatmap.svg">Heatmap SVG</a><a class="btn gold" href="data/processed/top_targets_v3_for_manuscript.csv">Top targets CSV</a><a class="btn" href="scripts/01_parse_anenpi_outputs.py">Parser script</a><a class="btn" href="scripts/02_make_publication_figures.py">Figure script</a></p></section>
+<section class="card"><h2>Figures</h2><object class="figure" data="figures/svg/Figure_1_workflow.svg" type="image/svg+xml"></object><br><br><object class="figure" data="figures/svg/Figure_3_target_presence_heatmap.svg" type="image/svg+xml"></object></section>
+</main><footer><div class="wrap">Generated for Leandro de Mattos Pereira / Databiomics. Repository: mattoslmp/NISE-targets_meningitisparasites.</div></footer>
 </body>
 </html>

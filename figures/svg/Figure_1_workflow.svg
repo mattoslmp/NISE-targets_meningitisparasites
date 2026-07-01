@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<defs><style>.t{font-family:Arial,Helvetica,sans-serif;fill:#13243a}.h{font-weight:700;font-size:25px}.s{font-size:18px}.small{font-size:15px;fill:#4f6478}.box{stroke:#12395a;stroke-width:4;rx:26}.arrow{stroke:#008c9e;stroke-width:6;fill:none;marker-end:url(#m)}</style><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#008c9e"/></marker></defs>
+<rect width="1600" height="760" fill="#f3f8fc"/>
+<text x="70" y="70" class="t h" font-size="34">AnEnPi-derived NISE drug-target discovery workflow</text>
+<g transform="translate(70,125)"><rect class="box" width="300" height="135" fill="#e9f7ff"/><text x="25" y="42" class="t h">1. Input</text><text x="25" y="75" class="t s">Parasite FASTA files</text><text x="25" y="104" class="small">AnEnPi EC and cluster outputs</text></g>
+<path class="arrow" d="M390 192 C430 192 430 192 470 192"/>
+<g transform="translate(490,125)"><rect class="box" width="300" height="135" fill="#e9fff3"/><text x="25" y="42" class="t h">2. Parse</text><text x="25" y="75" class="t s">Human-parasite EC matrix</text><text x="25" y="104" class="small">Cluster sets for each EC</text></g>
+<path class="arrow" d="M810 192 C850 192 850 192 890 192"/>
+<g transform="translate(910,125)"><rect class="box" width="300" height="135" fill="#fff2d8"/><text x="25" y="42" class="t h">3. Analog call</text><text x="25" y="75" class="t s">Same EC activity</text><text x="25" y="104" class="small">Parasite cluster absent from human</text></g>
+<path class="arrow" d="M1215 192 C1250 192 1250 192 1290 192"/>
+<g transform="translate(1310,125)"><rect class="box" width="220" height="135" fill="#f1e6ff"/><text x="22" y="42" class="t h">4. Score</text><text x="22" y="75" class="t s">Recurrence</text><text x="22" y="104" class="small">Evidence and sequence support</text></g>
+<path class="arrow" d="M1420 275 C1420 340 270 340 270 390"/>
+<g transform="translate(70,410)"><rect class="box" width="300" height="135" fill="#e7f3ff"/><text x="25" y="42" class="t h">5. Enrich</text><text x="25" y="75" class="t s">KEGG, ENZYME, BRENDA</text><text x="25" y="104" class="small">ChEMBL and TDR Targets</text></g>
+<path class="arrow" d="M390 477 C430 477 430 477 470 477"/>
+<g transform="translate(490,410)"><rect class="box" width="300" height="135" fill="#fff6cc"/><text x="25" y="42" class="t h">6. Fold validation</text><text x="25" y="75" class="t s">SUPERFAMILY or SCOPe</text><text x="25" y="104" class="small">Required before fold-validated NISE claims</text></g>
+<path class="arrow" d="M810 477 C850 477 850 477 890 477"/>
+<g transform="translate(910,410)"><rect class="box" width="300" height="135" fill="#e8ffe6"/><text x="25" y="42" class="t h">7. Outputs</text><text x="25" y="75" class="t s">Article, figures and tables</text><text x="25" y="104" class="small">Scripts and web page</text></g>
+<g transform="translate(70,625)"><rect width="1460" height="70" rx="18" fill="#061321"/><text x="28" y="43" font-family="Arial" font-size="22" fill="#ffffff">Priority score = 2 x positive datasets + evidence bonus + EC-quality bonus + sequence-support bonus</text></g>
+</svg>

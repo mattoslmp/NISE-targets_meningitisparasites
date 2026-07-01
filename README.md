@@ -2,14 +2,16 @@
 
 Comparative AnEnPi-derived catalog of non-homologous isofunctional enzyme candidates in neurotropic and neurologically relevant helminths.
 
-## Authors
+## Authors and correspondence
 
-Leandro de Mattos Pereira^1,2,*, Carlos Graeff-Teixeira^3,4 and Alessandra Loureiro Morassutti^4.
+Leandro de Mattos Pereira^1,2,*, Carlos Graeff-Teixeira^3,4 and Alessandra Loureiro Morassutti^4,*.
 
 1 Instituto Tecnológico Vale (ITV), Belém, Pará, Brazil.
 2 Databiomics, Bioinformatics and Data Science Laboratory, WBPEREIRA, Avenida Coronel José Bastos 700, Aeroporto, Itaperuna, Rio de Janeiro, Brazil.
 3 Universidade Federal do Espírito Santo, ES, Brazil.
 4 Universidade de Passo Fundo, Passo Fundo, RS, Brazil.
+
+Corresponding authors: Leandro de Mattos Pereira, info@databiomics.com; Alessandra Loureiro Morassutti, almorassutti@gmail.com.
 
 ## GitHub Pages
 
@@ -27,11 +29,11 @@ If the URL returns 404, configure GitHub Pages in the repository settings:
 
 ## Final manuscript package
 
-- `manuscript/NISE_targets_meningitisparasites_final_ParasitesVectors_authors_updated.docx`
-- `manuscript/NISE_targets_meningitisparasites_final_ParasitesVectors_authors_updated.pdf`
-- `manuscript/NISE_targets_supplementary_figures_final.docx`
-- `manuscript/NISE_targets_supplementary_figures_final.pdf`
-- `tables/NISE_targets_supplementary_tables_final_formatted.xlsx`
+- `manuscript/NISE_targets_meningitisparasites_production_ParasitesVectors_correspondence_audit.docx`
+- `manuscript/NISE_targets_meningitisparasites_production_ParasitesVectors_correspondence_audit.pdf`
+- `tables/NISE_targets_supplementary_tables_production_audit.xlsx`
+- `data/sequences/top_target_sequences_local_evidence.fasta`
+- `data/sequences/top_target_representative_sequences_for_web.fasta`
 
 ## Main results
 
